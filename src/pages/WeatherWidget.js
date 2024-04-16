@@ -6,10 +6,15 @@ import style from './WeatherWidget.module.css'
 
 export default function WeatherWidget () {
   const [weatherInfo, setWeatherInfo] = useState()
+  const [background, setBackground] = useState({})
+
+  const b = {
+    backgroundImage:'url("images/background/realistic-spring-background_52683-34520.avif")'
+  }
 
   return (
-    <div className={style['main-container']}>
-      <Navigation setWeatherInfo={setWeatherInfo} />
+    <div className={style['main-container']} style={background}>
+      <Navigation setWeatherInfo={setWeatherInfo} setBackground={setBackground}/>
       {weatherInfo && (
         <main>
           <TodayWeather data={weatherInfo.current} />

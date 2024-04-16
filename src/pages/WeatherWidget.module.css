@@ -7,34 +7,10 @@
   box-sizing: border-box;
 }
 .main-container nav {
-  height: 10vh;
+  height: 15vh;
   box-sizing: border-box;
 }
 .main-container main {
-  height: 90vh;
+  height: 85vh;
   box-sizing: border-box;
-}
-.nav-box {
-  padding: 1.3em;
-  color: white;
-}
-.nav-box select {
-  background-color: transparent;
-  padding: 0.5em;
-  width: 20%;
-  font-size: 1.2em;
-  border: none;
-  border-radius: 10px;
-  -webkit-box-shadow: inset 0px 0px 32px 0px rgba(186, 184, 186, 1);
-  -moz-box-shadow: inset 0px 0px 32px 0px rgba(186, 184, 186, 1);
-  box-shadow: inset 0px 0px 32px 0px rgba(186, 184, 186, 1);
-  margin: 0 1em;
-  color: white;
-}
-.nav-box label {
-  margin: 0 2em;
-  font-size: 1.1em;
-}
-.nav-box select option{
-    color: rgb(70, 69, 69);
 }
