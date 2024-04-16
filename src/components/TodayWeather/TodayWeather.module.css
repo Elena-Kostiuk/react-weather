@@ -1,0 +1,20 @@
+.today-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 10em;
+    padding: 2em 3em;
+}
+.today-container p:first-child{
+    font-size: 4em;
+}
+.today-container p:last-child{
+    font-size: 2em;
+}
+.today-container span{
+    font-size: 4em;
+}
+.today-container img{
+    height: 300px;
+    width: 300px;
+}

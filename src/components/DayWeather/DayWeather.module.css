@@ -1,0 +1,30 @@
+.day-container{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1.2em 3em;
+    border-right: 2px solid rgba(116, 115, 115, 0.514);
+}
+.temp-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.temp-box div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 0.7em;
+    
+}
+.day-container:first-child{
+    border-left: 2px solid rgba(116, 115, 115, 0.514);
+}
+.day-container > p:first-child{
+    font-size: 2em;
+    margin: 0;
+}
+.day-container span{
+    font-size: 1.5em;
+}
